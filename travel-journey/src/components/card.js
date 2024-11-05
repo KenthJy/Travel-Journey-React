@@ -5,9 +5,9 @@ export default function Card(props){
 
             <div className="place-stats">
                 <p>{props.location}</p>
-                <a href={props.googleMapsUrl}></a>
+                <a href={props.googleMapsUrl}>{props.googleMapsUrl}</a>
                 <h2>{props.title}</h2>
-                <span>{props.startDate}{props.endDate}</span>
+                <span>{props.startDate}-{props.endDate}</span>
                 <p>{props.description}</p>
             </div>
         </div>
